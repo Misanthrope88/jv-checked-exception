@@ -1,7 +1,8 @@
 package core.basesyntax;
 
 public class UserService {
-    private static final String VALIDATION_FAILED_MESSAGE = "Your passwords are incorrect. Try again.";
+    private static final String VALIDATION_FAILED_MESSAGE =
+            "Your passwords are incorrect. Try again.";
 
     public void registerUser(User user) {
         try {
